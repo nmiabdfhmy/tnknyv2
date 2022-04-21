@@ -616,8 +616,10 @@ ul {
 .portfolio .row .col-50 {
 	width: 400px;
 	height: 400px;
+	object-fit: cover
 	background-position: center center;
   	background-repeat: no-repeat;
+	background-size:contain;
 }
 
 .portfolio .row .col {
