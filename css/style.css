@@ -614,8 +614,8 @@ ul {
 }
 
 .portfolio .row .col-50 {
-	height: 400px;
-  	width: 400px;
+	height: 180px;
+  	width: 180px;
 	
 } 
 
@@ -625,8 +625,8 @@ ul {
 }
 
 .portfolio img {
-	height: 400px;
-  	width: 400px;
+	height: 170px;
+  	width: 170px;
   	object-fit: cover;
 	float: left;
 	display: block;
