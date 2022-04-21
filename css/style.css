@@ -614,7 +614,10 @@ ul {
 }
 
 .portfolio .row .col-50 {
-	width: 50%;
+	width: 400px;
+	height: 400px;
+	background-position: center center;
+  	background-repeat: no-repeat;
 }
 
 .portfolio .row .col {
@@ -652,8 +655,7 @@ ul {
 }
 
 .gallery .row .col-50 {
-	width: 200px;
-	height: 200px;
+	width: 50%;
 }
 
 .gallery .row .col {
