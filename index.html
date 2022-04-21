@@ -167,60 +167,26 @@
 
 						<!-- event -->
 						<div class="event app-section app-bg-dark">
-							<!--div class="container">
-								<div class="app-title">
-									<h4>Wedding Event</h4>
-									<i class="fa fa-heart"></i>
-								</div>
-								<div class="row">
-									<div class="col-100">
-										<div class="icon">
-											<i class="fa fa-star"></i>
-										</div>
-										<div class="entry">
-											<div class="head">
-												<h6>Marriage Ceremony</h6>
-												<span>10 May 2017, 04 pm - 06 pm</span>
-											</div>
-											<div class="post">
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus illum magnam nesciunt</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-100">
-										<div class="icon">
-											<i class="fa fa-heart"></i>
-										</div>
-										<div class="entry">
-											<div class="head">
-												<h6>The wedding took place</h6>
-												<span>10 May 2017, 06 pm - 08 pm</span>
-											</div>
-											<div class="post">
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus illum magnam nesciunt</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row-no">
-									<div class="col-100">
-										<div class="icon">
-											<i class="fa fa-cutlery"></i>
-										</div>
-										<div class="entry">
-											<div class="head">
-												<h6>Eating Together</h6>
-												<span>10 May 2017, 04 pm - 08 pm</span>
-											</div>
-											<div class="post">
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum repellendus illum magnam nesciunt</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div-->
+							<h5>Our Aniversary Day <br>will be celebrate in</h5>
+                              <!-- You can change the date time in init.js file -->
+                              <ul class="countdown">
+                                   <li>
+                                        <span class="days">14</span>
+                                        <h3>Days</h3>
+                                   </li>
+                                   <li>
+                                        <span class="hours">10</span>
+                                        <h3>hours</h3>
+                                   </li>
+                                   <li>
+                                        <span class="minutes">15</span>
+                                        <h3>minutes</h3>
+                                   </li>
+                                   <li>
+                                        <span class="seconds">34</span>
+                                        <h3>seconds</h3>
+                                   </li>     
+                              </ul>
 						</div>
 						<!-- end event -->
 
@@ -441,24 +407,6 @@ Semoga jangan berantem terus hehehe:) Baik baik pokoknya, langgeng buat keduanya
         counter = ""
         counter += Difference_In_Days + " Days Passed"
         document.getElementById('daycount').innerHTML = counter;
-    </script>
-
-    <script>
-        var date1 = new Date("2021, 07, 16");
-        var date2 = new Date;
-        var Difference_In_Days = Math.round((date2 - date1) / (1000 * 60 * 60 * 24));
-        counter = ""
-        counter += Difference_In_Days + " Days"
-        document.getElementById('daycount2').innerHTML = counter;
-    </script>
-
-    <script>
-        var date1 = new Date("2021, 07, 16");
-        var date2 = new Date;
-        var Difference_In_Days = Math.round((date2 - date1) / (1000 * 60 * 60 * 24));
-        counter = ""
-        counter += Difference_In_Days + " Days"
-        document.getElementById('daycount3').innerHTML = counter;
     </script>
 
 </body>
