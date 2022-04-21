@@ -614,11 +614,10 @@ ul {
 }
 
 .portfolio .row .col-50 {
-	width: 400px;
 	height: 400px;
-	object-fit: cover
+  	width: 400px;
 	
-}
+} 
 
 .portfolio .row .col {
 	padding: 3px;
@@ -626,8 +625,9 @@ ul {
 }
 
 .portfolio img {
-	width: 100%;
-	height: 100%;
+	height: 400px;
+  	width: 400px;
+  	object-fit: cover;
 	float: left;
 	display: block;
 }
