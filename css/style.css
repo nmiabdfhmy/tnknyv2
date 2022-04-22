@@ -1799,10 +1799,11 @@ event.countdown {
 }
 
 event.countdown li {
-  color: #ec407a;
+  color: black;
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  font-family: 'Oswald', sans-serif;
 }
 
 event.countdown span {
@@ -1826,6 +1827,7 @@ event.countdown h3 {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+	font-family: 'Oswald', sans-serif;
   }
 
   .countdown span {
@@ -1836,4 +1838,5 @@ event.countdown h3 {
     font-size: 14px;
     text-transform: uppercase;
     margin: 10px 0;
+	font-family: 'Oswald', sans-serif;
   }
