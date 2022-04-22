@@ -1833,11 +1833,11 @@ event.countdown h3 {
   	padding: 20px 0;
   	width: 80px;
   	height: 120px;
-	font-family: 'Oswald', sans-serif;
   }
 
   .countdown span {
     font-size: 35px;
+	font-family: 'Oswald', sans-serif;
   }
 
   .countdown h3 {
