@@ -600,6 +600,7 @@ ul {
 
 .portfolio ul .active {
  	background: #ec407a;
+	border-radius: 5px;
  	color: #fff;
 }
 
