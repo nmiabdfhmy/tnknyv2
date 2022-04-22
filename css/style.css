@@ -1814,3 +1814,26 @@ event.countdown h3 {
   text-transform: uppercase;
   margin: 10px 0;
 }
+
+.countdown {
+    text-align: center;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .countdown li {
+    color: #ec407a;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  .countdown span {
+    font-size: 40px;
+  }
+
+  .countdown h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
