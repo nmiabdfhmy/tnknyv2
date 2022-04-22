@@ -1773,48 +1773,44 @@ footer .ft-bottom {
 	countdown
 ===================*/
 @media screen and (max-width: 360px) {
-    .menu-items {
-      margin: 100px 0;
-    }
+  .menu-items {
+    margin: 100px 0;
+  }
 
-    .countdown span {
-      font-size: 20px;
-    }
+  event.countdown span {
+    font-size: 20px;
+  }
 
-    .countdown h3 {
-      font-size: 12px;
-    }
+  event.countdown h3 {
+    font-size: 12px;
+  }
 }
 
-  @media screen and (max-width: 480px) {
-    .countdown li {
-      margin: 0 12px;
-    }
-
-    address {
-      margin-top: 50px;
-    }
+@media screen and (max-width: 480px) {
+  event.countdown li {
+    margin: 0 12px;
   }
+}
   
-.countdown {
-    text-align: center;
-    margin: 50px 0;
-    padding: 0;
-  }
+event.countdown {
+  text-align: center;
+  margin: 50px 0;
+  padding: 0;
+}
 
-  .countdown li {
-    color: #ec407a;
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-  }
+event.countdown li {
+  color: #ec407a;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
 
-  .countdown span {
-    font-size: 25px;
-  }
+event.countdown span {
+  font-size: 25px;
+}
 
-  .countdown h3 {
-    font-size: 14px;
-    text-transform: uppercase;
-    margin: 10px 0;
-  }
+event.countdown h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
