@@ -1826,7 +1826,13 @@ event.countdown h3 {
     color: #ec407a;
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 5px;
+	border-radius: 7px;
+  	border: 1px solid #ec407a;
+	background-color: white;
+  	padding: 20px;
+  	width: 100px;
+  	height: 150px;
 	font-family: 'Oswald', sans-serif;
   }
 
