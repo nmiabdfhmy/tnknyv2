@@ -44,7 +44,7 @@ Author URL : https://themeforest.net/user/rabonadev
 body {
 	margin: 0;
 	padding: 0;
-	background: #fff;
+	background: #f7f8ff;
 	color: #999;
 	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
@@ -421,7 +421,9 @@ ul {
 
 .profile .entry {
 	padding: 15px 10px;
-	background: #f7f7f7;
+	background: white;
+	border-radius: 7px;
+	box-shadow: 0px 15px 15px -3px rgba(236,64,122,0.1);
 }
 
 .profile .entry img {
@@ -451,21 +453,28 @@ ul {
 }
 
 .profile .date {
-	border: dashed 2px #ec407a;
+	border: dashed 0px #ec407a;
 	padding: 15px 10px;
-	background: #f9f9f9;
+	border-radius: 7px;
+	color: white;
+	background: rgb(236, 64, 121);
+	box-shadow: 0px 15px 15px -3px rgba(236,64,122,0.3);
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .profile .date p {
 	font-size: 15px;
-	color: #777;
+	color: rgb(255, 255, 255);
 	padding: 0;
-	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .profile .date h5 {
+	color: white;
 	padding: 0;
 	margin: 0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*===================
@@ -589,19 +598,23 @@ ul {
 }
 
 .portfolio ul li {
- 	background: #ddd;
+ 	background: transparent;
 	display: inline-block;
 	margin: 0 4px;
 	cursor: pointer;
  	color: #333;
+	border: 0px solid #ec407a;
  	padding: 3px 8px 3px 8px;
- 	border-radius: 5px;
+ 	border-radius: 4px;
+	/*box-shadow: inset 0px 15px 15px -3px rgba(236,64,122,0.1);*/
 }
 
 .portfolio ul .active {
- 	background: #ec407a;
-	border-radius: 5px;
- 	color: #fff;
+ 	background: white;
+ 	color: #ec407a;
+	border: px solid #ec407a;
+	border-radius: 4px;
+	box-shadow: 0px 15px 15px -3px rgba(236,64,122,0.1);
 }
 
 .portfolio .row {
@@ -629,6 +642,9 @@ ul {
  	float: left;
 	object-fit: cover;
  	display: block;
+	border: 5px solid white;
+	border-radius: 20px;
+	box-shadow: 0px 15px 15px -3px rgba(236,64,122,0.1);
 }
 
 /*===================
@@ -1576,7 +1592,8 @@ border-bottom: 2px solid #ec407a;
 	height: 100%;
 	display: block;
 	z-index: 0;
-	background: rgba(236, 64, 122, 0.86);
+	background: rgb(255,95,149);
+	background: linear-gradient(180deg, rgba(255,95,149,1) 0%, rgba(255,107,176,1) 100%);
 }
 
 .testimonial h6 {
@@ -1610,10 +1627,16 @@ border-bottom: 2px solid #ec407a;
 /*===================
 	latest news
 ===================*/
+.latest-news{
+
+}
+
 .latest-news .entry {
 	text-align: center;
 	padding-bottom: 6px;
-	border: 1px solid #ddd;
+	background-color: white;
+	border-radius: 7px;
+	box-shadow: 0px 15px 15px -3px rgba(236,64,122,0.1);
 }
 
 .latest-news img {
@@ -1828,15 +1851,13 @@ event.countdown h3 {
     list-style: none;
     display: inline-block;
     margin: 5px 5px;
-	  border-radius: 7px;
-  	border: 1px solid #ec407a;
-	  background-color: white;
+	background-color: white;
   	padding: 20px 0;
   	width: 80px;
   	height: 120px;
-  	-webkit-box-shadow: 0px 0px 8px 0px rgba(236,64,122,0.3);
-    -moz-box-shadow: 0px 0px 8px 0px rgba(236,64,122,0.3);
-    box-shadow: 0px 0px 8px 0px rgba(236,64,122,0.3);
+	border: 0px solid #ec407a;
+	border-radius: 7px;
+	box-shadow: inset 0px 15px 15px -3px rgba(236,64,122,0.1),0px 10px 15px -3px rgba(236,64,122,0.1);
   }
 
   .countdown span {
