@@ -1565,18 +1565,18 @@ border-bottom: 2px solid #ec407a;
 	text-align: center;
 	background: url(../img/testimonial.jpg) center no-repeat;
 	background-size: 100% 100%;
-	color: #eee;
+	/*color: #eee;*/
 	width: 100%;
 	vertical-align: top;
 	position: relative;
 }
 
 .testimonial .app-title h4 {
-	color: #fff;
+	color: #666;
 }
 
 .testimonial .app-title i {
-	color: #fff;
+	color: #666;
 }
 
 .testimonial * {
@@ -1592,13 +1592,13 @@ border-bottom: 2px solid #ec407a;
 	height: 100%;
 	display: block;
 	z-index: 0;
-	background: rgb(255,95,149);
-	background: linear-gradient(180deg, rgba(255,95,149,1) 0%, rgba(255,107,176,1) 100%);
+	/*background: rgb(255,95,149);
+	background: linear-gradient(180deg, rgba(255,95,149,1) 0%, rgba(255,107,176,1) 100%);*/
 }
 
 .testimonial h6 {
 	font-weight: 700;
-	color: #fff;
+	color: #666;
 }
 
 .testimonial .app-title {
@@ -1613,14 +1613,25 @@ border-bottom: 2px solid #ec407a;
   
 }
 
+.testimonial .item {
+	background-color: white;
+	padding: 15px 15px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 7px;
+	box-shadow: 0px 15px 15px -3px rgba(236,64,122,0.1);
+}
+
 .testimonial .owl-theme .owl-controls {
+	color: #666;
 	margin-bottom: -12px;
 }
 
 .testimonial .owl-theme .owl-controls .owl-page span {
-	background: #fff;
-	width: 8px;
-	height: 8px;
+	background: #ec407a;
+	width: 20px;
+	height: 4px;
 }
 
 
